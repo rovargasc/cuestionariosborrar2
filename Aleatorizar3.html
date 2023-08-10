@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redireccionamiento Aleatorio</title>
+    <script>
+        window.onload = function() {
+            var formUrls = [
+                "https://forms.gle/vcFqM5FjcnvNpLbv7",
+                "https://forms.gle/u5WuW81fJ1x7HHeN9"
+            ];
+            var randomNumber = Math.floor(Math.random() * formUrls.length);
+            window.location.href = formUrls[randomNumber];
+        };
+    </script>
+</head>
+<body>
+</body>
+</html>
